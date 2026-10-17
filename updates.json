@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "lcsc-datasheets@local.example": {
+      "updates": [
+        {
+          "version": "0.2.0",
+          "update_link": "https://github.com/earnest-zhang/zotero-component-datasheets/releases/download/v0.2.0/lcsc-datasheets-v0.2.0.xpi",
+          "update_hash": "sha256:48a397d3b55e9502911e29c1397aa7333badbc7aea5cb3354e6a64b85fceb94e",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "9.0",
+              "strict_max_version": "9.0.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

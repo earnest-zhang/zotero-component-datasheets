@@ -1,0 +1,83 @@
+FN6660 Rev 9.00 Page 1 of 17
+Mar 19, 2018
+FN6660
+Rev 9.00
+Mar 19, 2018
+ISL80102, ISL80103
+High Performance 2A and 3A Linear Regulators
+ DATASHEET
+The ISL80102 and ISL80103 are low voltage, high-current,
+single output LDOs specified for 2A and 3A output current,
+respectively. These LDOs operate from the input voltages of
+2.2V to 6V and are capable of providing the output voltages of
+0.8V to 5.5V on the adjustable VOUT versions. Other custom
+voltage options are available upon request.
+An external capacitor on the soft-start pin provides adjustment
+for applications that demand inrush current less than the
+current limit. The ENABLE feature allows the part to be placed
+into a low quiescent current shutdown mode. A submicron
+BiCMOS process is used for this product family to deliver
+best-in-class analog performance and overall value.
+These CMOS (LDOs) consume significantly lower quiescent
+current as a function of load over bipolar LDOs, so they are
+more efficient and allow packages with smaller footprints. The
+quiescent current has been modestly compromised to enable
+a leading class fast load transient response, and hence a lower
+total AC regulation band for an LDO in this category.
+Related Literature
+For a full list of related documents, visit our website
+• ISL80102, ISL80103 product pages
+Features
+• Stable with ceramic capacitors (Note 11)
+• 2A and 3A output current ratings
+• 2.2V to 6V input voltage range
+•± 1 . 8 %  V
+OUT accuracy guaranteed over line, load, and
+TJ = -40°C to +125°C
+• Very low 120mV dropout voltage at 3A (ISL80103)
+• Very fast transient response
+• Excellent 62dB PSRR
+• 49µV
+RMS output noise
+• Power-good output
+• Adjustable inrush current limiting
+• Short-circuit and over-temperature protection
+• Available in a 10 Ld DFN
+Applications
+•S e r v e r s
+• Telecommunications and networking
+• Medical equipment
+• Instrumentation systems
+•R o u t e r s  a n d  s w i t c h e r s
+FIGURE 1. TYPICAL APPLICATION FOR FIXED OUTPUT VOLTAGE VERSION
+ISL80102, ISL80103
+VIN
+9
+VIN
+10
+ENABLE7
+SS6
+GND
+2.5V ±10%
+CIN
+10µF
+VIN
+OFF
+ON
+*CSS
+5
+PG
+4
+VOUT
+1
+VOUT
+2
+VOUT
+1.8V ±1.8%
+COUT
+10µF
+RPG
+100kΩ
+SENSE 3
+PGOOD
+*CSS is optional (see Note 12 on page 5).

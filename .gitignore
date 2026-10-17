@@ -1,0 +1,5 @@
+node_modules/
+verification/
+*.zip
+*.xpi
+SHA256SUMS

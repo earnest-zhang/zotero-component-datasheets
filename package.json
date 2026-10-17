@@ -1,0 +1,14 @@
+{
+  "name": "zotero-component-datasheets",
+  "version": "0.2.0",
+  "private": true,
+  "license": "AGPL-3.0-or-later",
+  "description": "立创商城器件数据手册 Zotero 转换器",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "test:live": "node tests/live.cjs"
+  },
+  "devDependencies": {
+    "linkedom": "0.18.13"
+  }
+}
